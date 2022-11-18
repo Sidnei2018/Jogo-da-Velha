@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9b9994;
+}
+
+h1{
+    text-align: center;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    box-shadow: 20px 18px 20px;
+}
+
+.game button{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: #f7f7f7;
+}
